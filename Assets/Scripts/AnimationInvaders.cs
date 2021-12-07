@@ -12,6 +12,11 @@ public class AnimationInvaders : MonoBehaviour
 
     private int _animationFrame; // animation frame to reference
 
+    public System.Action killed;
+
+
+
+
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -39,5 +44,16 @@ public class AnimationInvaders : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player Bullet")
+        {
+
+            gameObject.SetActive(false);
+            
+            
+        }
     }
 }

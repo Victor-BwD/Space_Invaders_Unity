@@ -139,6 +139,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_01 Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
       propertyPath: m_RootOrder
@@ -275,6 +280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &100037816
@@ -288,6 +298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -539,6 +554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &218465848
@@ -607,6 +627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -899,6 +924,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &346580091
@@ -967,6 +997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_03 Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
@@ -1037,6 +1072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!4 &352343372 stripped
@@ -1074,6 +1114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -1205,6 +1250,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &466607193
@@ -1218,6 +1268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -1342,6 +1397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -1552,6 +1612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!4 &575604867 stripped
@@ -1628,6 +1693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -1771,6 +1841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &694329056
@@ -1839,6 +1914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -1933,6 +2013,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!4 &950706214 stripped
@@ -1952,6 +2037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -2027,6 +2117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -2158,6 +2253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!1001 &1126384235
@@ -2226,6 +2326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -2302,6 +2407,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &1222438994
@@ -2371,6 +2481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!4 &1237846799 stripped
@@ -2396,6 +2511,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -2521,6 +2641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!1001 &1309038525
@@ -2589,6 +2714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_03 Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
@@ -2671,6 +2801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!1001 &1367506198
@@ -2739,6 +2874,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -2815,6 +2955,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!1001 &1430673405
@@ -2884,6 +3029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!4 &1469406903 stripped
@@ -2921,6 +3071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -2993,7 +3148,7 @@ GameObject:
   - component: {fileID: 1567365843}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3114,6 +3269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -3359,6 +3519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &1654325220
@@ -3427,6 +3592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
@@ -3497,6 +3667,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &1700518041
@@ -3566,6 +3741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!1001 &1731038740
@@ -3579,6 +3759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_01 Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306579337642139156, guid: d875eb78e558e8d4e8407df01081ec7f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8560803244665230241, guid: d875eb78e558e8d4e8407df01081ec7f,
         type: 3}
@@ -3704,6 +3889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!4 &1758749203 stripped
@@ -3785,6 +3975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_03 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
 --- !u!4 &1861358760 stripped
@@ -3860,6 +4055,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1 &1881471284
@@ -3887,7 +4087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881471284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.92, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 405847370}
@@ -3950,6 +4150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  timer: 0
 --- !u!4 &1886058364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 597327226341173137, guid: db3b5100893da9440b50278325907d07,
@@ -4023,6 +4224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &1898595185
@@ -4091,6 +4297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_03 Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708248837956021837, guid: ea8f3f9eb42e8ad468857dec3f1f9a68,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8f3f9eb42e8ad468857dec3f1f9a68, type: 3}
@@ -4167,6 +4378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_02 Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}
 --- !u!1001 &1978645957
@@ -4235,6 +4451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invader_02 Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009878469322353188, guid: db3b5100893da9440b50278325907d07,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3b5100893da9440b50278325907d07, type: 3}

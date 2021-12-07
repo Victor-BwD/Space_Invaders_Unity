@@ -5,18 +5,47 @@ using UnityEngine;
 public class Invaders : MonoBehaviour
 {
     private Vector3 _direction = Vector2.right;
-    public float speed = 4f;
+    public float speed = 1f;
+
+    //public float maxSpeed = 9.0f;
+    //public float middleSpeed = 3.0f;
+
+    public float timer = 0f;
+
+    float timeToIncrease = 5.0f; //this is the time between "speedups"
+    float currentTime;  //to keep track
+    float speedIncrement = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentTime = Time.time + timeToIncrease;
     }
 
     // Update is called once per frame
     void Update()
     {
         this.transform.position += _direction * speed * Time.deltaTime; // go to right side
+
+        timer += Time.deltaTime;
+
+        float seconds = timer % 60;
+
+        //if(seconds >= 140)
+        //{
+        //    this.transform.position += _direction * speed * middleSpeed * Time.deltaTime;
+        //}else if (seconds >= 200)
+        //{
+        //    this.transform.position += _direction * speed * maxSpeed * Time.deltaTime;
+        //}
+
+
+        if (Time.time >= currentTime)
+        {
+            speed += speedIncrement;
+            currentTime = Time.time + timeToIncrease;
+        }
+
 
         Vector3 leftEdge = Camera.main.ViewportToWorldPoint(Vector3.zero); // End point left side of screen
         Vector3 rightEdge = Camera.main.ViewportToWorldPoint(Vector3.right); // End point right side of screen
@@ -46,4 +75,6 @@ public class Invaders : MonoBehaviour
         position.y -= 1.0f;
         this.transform.position = position;
     }
+
+    
 }
