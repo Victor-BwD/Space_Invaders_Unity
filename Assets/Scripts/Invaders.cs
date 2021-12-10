@@ -7,10 +7,13 @@ public class Invaders : MonoBehaviour
     private Vector3 _direction = Vector2.right;
     public float speed = 1f;
 
+
     //public float maxSpeed = 9.0f;
     //public float middleSpeed = 3.0f;
 
     public float timer = 0f;
+
+    public float missileAttackRate;
 
     float timeToIncrease = 5.0f; //this is the time between "speedups"
     float currentTime;  //to keep track
@@ -20,6 +23,10 @@ public class Invaders : MonoBehaviour
     void Start()
     {
         currentTime = Time.time + timeToIncrease;
+
+        InvokeRepeating(nameof(MissileAttack), this.missileAttackRate, this.missileAttackRate);
+
+        GameObject go = GameObject.Find("Invaders");
     }
 
     // Update is called once per frame
@@ -76,5 +83,15 @@ public class Invaders : MonoBehaviour
         this.transform.position = position;
     }
 
-    
+    private void MissileAttack()
+    {
+        foreach (Transform invader in this.transform) // each invader is checked
+        {
+            if (!invader.gameObject.activeInHierarchy) // Checks if invaders is still in hierarchy tree
+            {
+                continue;
+            }
+        }
+
+    }
 }

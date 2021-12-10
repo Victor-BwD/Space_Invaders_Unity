@@ -51,7 +51,8 @@ public class AnimationInvaders : MonoBehaviour
         if (collision.gameObject.tag == "Player Bullet")
         {
 
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
+            Destroy(gameObject);
             
             
         }
