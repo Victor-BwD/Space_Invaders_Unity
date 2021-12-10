@@ -13,4 +13,17 @@ public class Bullet : MonoBehaviour
     {
         this.transform.position += direction * speed * Time.deltaTime;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Boundary")
+        {
+            Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
