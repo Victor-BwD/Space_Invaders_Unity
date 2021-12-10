@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-
+    public GameObject invaders;
 
     private void FixedUpdate()
     {
-        GameObject invaders = GameObject.Find("Invaders");
+        invaders = GameObject.Find("Invaders");
         Debug.Log(invaders.name + " has " + invaders.transform.childCount + " children");
 
         for(var i = 0; i <= invaders.transform.childCount; i++)

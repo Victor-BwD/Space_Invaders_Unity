@@ -7,6 +7,9 @@ public class Invaders : MonoBehaviour
     private Vector3 _direction = Vector2.right;
     public float speed = 1f;
 
+    public GameObject enemyBulletPrefab;
+    public GameObject enemyBulletClone;
+
 
     //public float maxSpeed = 9.0f;
     //public float middleSpeed = 3.0f;
@@ -74,6 +77,8 @@ public class Invaders : MonoBehaviour
         }
     }
 
+
+
     private void AdvanceRow() // Function to go down a row and flip direction
     {
         _direction.x *= -1.0f;
@@ -91,7 +96,15 @@ public class Invaders : MonoBehaviour
             {
                 continue;
             }
-        }
 
+            if (Random.Range(0f, 3000f) < 1)
+            {
+                enemyBulletClone = Instantiate(enemyBulletPrefab, new Vector3(invader.transform.position.x, invader.transform.position.y - 0.4f, 0), invader.transform.rotation) as GameObject;
+            }
+
+        }
+        
     }
+
+
 }

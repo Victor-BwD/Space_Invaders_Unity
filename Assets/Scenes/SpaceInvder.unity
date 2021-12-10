@@ -1574,8 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5147910f36bc5d4b8fcec036c6ff859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invaders: {fileID: 1881471284}
-  howMuchChildrens: 0
+  invaders: {fileID: 0}
 --- !u!4 &524687261
 Transform:
   m_ObjectHideFlags: 0
@@ -4117,6 +4116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881471285}
   - component: {fileID: 1881471286}
+  - component: {fileID: 1881471287}
   m_Layer: 0
   m_Name: Invaders
   m_TagString: Untagged
@@ -4195,8 +4195,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  enemyBulletPrefab: {fileID: 0}
+  enemyBulletClone: {fileID: 0}
   timer: 0
-  missileAttackRate: 0
+  missileAttackRate: 1
+--- !u!114 &1881471287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881471284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12bf56d70c897b74aabfbfb3a5b375ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1881471284}
+  enemyBulletPrefab: {fileID: 8318743534107409460, guid: 1cbc1c19259217b459a8ec1ada17a8b4,
+    type: 3}
+  enemyBulletClone: {fileID: 0}
 --- !u!4 &1886058364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 597327226341173137, guid: db3b5100893da9440b50278325907d07,
