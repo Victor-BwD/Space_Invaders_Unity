@@ -7,6 +7,9 @@ public class EnemyBullet : MonoBehaviour
     public Vector3 direction;
 
     public float speed;
+
+    public System.Action destroyed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +24,26 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Boundary")
+        //if (collision.gameObject.tag == "Boundary")
+        //{
+        //    Destroy(gameObject);
+        //}
+
+        //if (collision.gameObject.tag == "Player")
+        //{
+        //    Destroy(gameObject);
+        //}
+
+        //if(collision.gameObject.tag == "Shield")
+        //{
+        //    Destroy(gameObject);
+        //}
+        if(destroyed != null)
         {
-            Destroy(gameObject);
+            destroyed.Invoke();
         }
 
-        if (collision.gameObject.tag == "Player")
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
+
     }
 }
