@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class GameController : MonoBehaviour
         {
             if(invaders.transform.childCount == 0)
             {
-                Time.timeScale = 0;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
