@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 113857410}
   m_Layer: 0
   m_Name: Shield3
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 245958703}
   m_Layer: 0
   m_Name: Shield2
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3389,7 +3389,7 @@ GameObject:
   - component: {fileID: 1578407557}
   m_Layer: 0
   m_Name: Shield1
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4549,7 +4549,7 @@ GameObject:
   - component: {fileID: 2073012346}
   m_Layer: 0
   m_Name: Shield
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
