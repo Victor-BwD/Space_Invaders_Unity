@@ -124,6 +124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 1, z: 0}
   speed: 30
+  audioSource: {fileID: 0}
+  dieClip: {fileID: 0}
 --- !u!50 &7813598362023369014
 Rigidbody2D:
   serializedVersion: 4

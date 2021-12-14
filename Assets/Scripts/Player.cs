@@ -11,10 +11,13 @@ public class Player : MonoBehaviour
     private float fireRate = 0.5f;
     private float nextFire;
 
+    private AudioSource audioSource;
+    public AudioClip shootingAudioClip;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,13 +37,14 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            
+            audioSource.PlayOneShot(shootingAudioClip);
             Shoot();
         }
     }
 
     public void Shoot()
     {
+        
         Instantiate(bulletPrefab, transform.position, Quaternion.identity);
     }
 }

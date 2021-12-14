@@ -22,6 +22,7 @@ public class Invaders : MonoBehaviour
     float currentTime;  //to keep track
     float speedIncrement = 0.5f;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,8 @@ public class Invaders : MonoBehaviour
         InvokeRepeating(nameof(MissileAttack), this.missileAttackRate, this.missileAttackRate);
 
         GameObject go = GameObject.Find("Invaders");
+
+       
     }
 
     // Update is called once per frame
