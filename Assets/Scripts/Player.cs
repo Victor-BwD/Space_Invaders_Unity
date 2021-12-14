@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     public Bullet bulletPrefab;
 
-    private float fireRate = 1.0f;
+    private float fireRate = 0.5f;
     private float nextFire;
 
     // Start is called before the first frame update
