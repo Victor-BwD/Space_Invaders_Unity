@@ -7,6 +7,7 @@ TagManager:
   - Boundary
   - Player Bullet
   - Enemy
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -16,10 +17,10 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Invader
   - Laser
   - Missile
-  - 
-  - 
   - 
   - 
   - 
