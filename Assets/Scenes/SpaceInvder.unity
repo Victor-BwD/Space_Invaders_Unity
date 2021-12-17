@@ -1971,7 +1971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misteryShipPrefab: {fileID: 567909564987087445, guid: d35668bb3677e64498f08e0bc7ff5f5b,
     type: 3}
-  respawnTime: 1
+  respawnTime: 10
   speed: 10
 --- !u!4 &761558281
 Transform:

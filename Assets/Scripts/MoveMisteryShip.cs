@@ -7,10 +7,15 @@ public class MoveMisteryShip : MonoBehaviour
     private Vector3 _direction = Vector2.left;
     public float speed = 15f;
 
+    private AudioSource audioSource;
+    public AudioClip misteryShipAudio;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(misteryShipAudio);
+        Destroy(gameObject, 2f);
     }
 
     // Update is called once per frame

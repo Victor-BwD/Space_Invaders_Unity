@@ -5,7 +5,7 @@ using UnityEngine;
 public class MisteryShip : MonoBehaviour
 {
     public GameObject misteryShipPrefab;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 10.0f;
     private Vector2 screenBounds;
     public float speed = 10f;
 
