@@ -14,10 +14,13 @@ public class Player : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip shootingAudioClip;
 
+    public GameObject explosion;
+
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+     
     }
 
     // Update is called once per frame
@@ -46,5 +49,15 @@ public class Player : MonoBehaviour
     {
         
         Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Missile"))
+        {
+            Destroy(gameObject);
+            GameObject spawnExplosion = Instantiate(explosion, gameObject.transform.localPosition, Quaternion.identity);
+            Destroy(spawnExplosion, 3f);
+        }
     }
 }
