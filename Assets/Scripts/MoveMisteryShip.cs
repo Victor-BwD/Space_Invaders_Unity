@@ -23,4 +23,13 @@ public class MoveMisteryShip : MonoBehaviour
     {
         this.transform.position += _direction * speed * Time.deltaTime; // go to left side
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Laser"))
+        {
+            Destroy(gameObject);
+        }
+
+    }
 }

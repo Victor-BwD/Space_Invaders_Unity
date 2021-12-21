@@ -38,6 +38,7 @@ public class EnemyBullet : MonoBehaviour
         //{
         //    Destroy(gameObject);
         //}
+
         if(destroyed != null)
         {
             destroyed.Invoke();
