@@ -24,27 +24,27 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.gameObject.tag == "Boundary")
-        //{
-        //    Destroy(gameObject);
-        //}
-
-        //if (collision.gameObject.tag == "Player")
-        //{
-        //    Destroy(gameObject);
-        //}
-
-        //if(collision.gameObject.tag == "Shield")
-        //{
-        //    Destroy(gameObject);
-        //}
-
-        if(destroyed != null)
+        if (collision.gameObject.tag == "Boundary")
         {
-            destroyed.Invoke();
+            Destroy(gameObject);
         }
 
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.tag == "Shield")
+        {
+            Destroy(gameObject);
+        }
+
+        //if(destroyed != null)
+        //{
+        //    destroyed.Invoke();
+        //}
+
+        //Destroy(gameObject);
 
     }
 }

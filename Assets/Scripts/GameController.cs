@@ -7,6 +7,13 @@ public class GameController : MonoBehaviour
 {
     public GameObject invaders;
 
+    public GameObject player;
+
+    public void Start()
+    {
+        Instantiate(player, new Vector3(0, -13, 0), transform.rotation);
+    }
+
     private void FixedUpdate()
     {
         invaders = GameObject.Find("Invaders");
@@ -19,5 +26,7 @@ public class GameController : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
+
+       
     }
 }

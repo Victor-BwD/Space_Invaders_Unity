@@ -16,11 +16,16 @@ public class Player : MonoBehaviour
 
     public GameObject explosion;
 
+    public GameObject respawnPoint;
+
+    public int playerLives = 3;
+    public int playerCurrentLives;
+
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-     
+        playerCurrentLives = playerLives;
     }
 
     // Update is called once per frame
@@ -43,6 +48,16 @@ public class Player : MonoBehaviour
             audioSource.PlayOneShot(shootingAudioClip);
             Shoot();
         }
+
+        if(playerCurrentLives == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void RemoveHealth(int amount)
+    {
+        playerCurrentLives -= amount;
     }
 
     public void Shoot()
@@ -55,9 +70,11 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Missile"))
         {
-            Destroy(gameObject);
+            
             GameObject spawnExplosion = Instantiate(explosion, gameObject.transform.localPosition, Quaternion.identity);
             Destroy(spawnExplosion, 3f);
+            this.gameObject.transform.position = respawnPoint.transform.position;
+            RemoveHealth(1);
         }
     }
 }
