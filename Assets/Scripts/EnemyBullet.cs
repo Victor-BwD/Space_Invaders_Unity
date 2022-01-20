@@ -10,10 +10,13 @@ public class EnemyBullet : MonoBehaviour
 
     public System.Action destroyed;
 
+
+    private Shields getShield;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        getShield = FindObjectOfType<Shields>();
     }
 
     // Update is called once per frame
@@ -37,6 +40,7 @@ public class EnemyBullet : MonoBehaviour
         if (collision.gameObject.tag == "Shield")
         {
             Destroy(gameObject);
+            getShield.shieldCurrentHealth -= 1;
         }
 
         //if(destroyed != null)
