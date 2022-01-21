@@ -13,7 +13,7 @@ public class MisteryShip : MonoBehaviour
     void Start()
     {
 
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z)); 
         StartCoroutine(MisteryShipWave());
     }
 
@@ -25,7 +25,7 @@ public class MisteryShip : MonoBehaviour
 
     private void SpawnShip()
     {
-        GameObject spawn = Instantiate(misteryShipPrefab, gameObject.transform.localPosition, Quaternion.identity);
+        GameObject spawn = Instantiate(misteryShipPrefab, gameObject.transform.localPosition, Quaternion.identity); 
 
     }
 
