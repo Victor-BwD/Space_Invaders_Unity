@@ -6,7 +6,7 @@ public class EnemyShoot : MonoBehaviour
 {
     public GameObject enemy;
     public GameObject enemyBulletPrefab;
-    public GameObject enemyBulletClone;
+    private GameObject enemyBulletClone;
 
     
 
