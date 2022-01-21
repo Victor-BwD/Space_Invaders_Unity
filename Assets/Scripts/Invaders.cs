@@ -8,7 +8,7 @@ public class Invaders : MonoBehaviour
     public float speed = 1f;
 
     public GameObject enemyBulletPrefab;
-    public GameObject enemyBulletClone;
+    private GameObject enemyBulletClone;
 
 
     //public float maxSpeed = 9.0f;
