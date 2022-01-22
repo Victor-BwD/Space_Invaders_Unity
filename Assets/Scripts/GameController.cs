@@ -14,9 +14,10 @@ public class GameController : MonoBehaviour
 
     public Text gameOverText;
 
+
     public void Start()
     {
-        Instantiate(player, new Vector3(0, -13, 0), transform.rotation); // Instantiate player in position
+        //Instantiate(player, new Vector3(0, -13, 0), transform.rotation); // Instantiate player in position
         gameover = GetComponent<Player>(); 
         gameOverText.enabled = false;
     }

@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public int playerLives = 3;
     public int playerCurrentLives;
 
+    private 
+
     // Start is called before the first frame update
     void Start()
     {
