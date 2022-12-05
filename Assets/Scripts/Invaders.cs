@@ -7,7 +7,7 @@ public class Invaders : MonoBehaviour
     private float timer;
     private float timeToIncrease = 5.0f; //this is the time between "speedups"
     private float currentTime;  //to keep track
-    private float speedIncrement = 0.5f;
+    private float speedIncrement = 0.8f;
     void Start()
     {
         currentTime = Time.time + timeToIncrease;
