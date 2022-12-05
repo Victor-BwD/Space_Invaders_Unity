@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AnimationInvaders : MonoBehaviour
 {
@@ -11,11 +9,6 @@ public class AnimationInvaders : MonoBehaviour
     private SpriteRenderer _spriteRenderer; // reference to component
 
     private int _animationFrame; // animation frame to reference
-
-    public System.Action killed;
-
-
-
 
     private void Awake()
     {
@@ -40,21 +33,12 @@ public class AnimationInvaders : MonoBehaviour
         _spriteRenderer.sprite = animationSprites[_animationFrame]; // spriterenderer get value of array between 1 and 2
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player Bullet")
         {
-
             // gameObject.SetActive(false);
             Destroy(gameObject);
-            
-            
         }
     }
 }
