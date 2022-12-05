@@ -1,15 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemyShoot : MonoBehaviour
 {
-    public GameObject enemyBulletPrefab; 
-    private GameObject enemyBulletClone;
-    
-    void Update()
+    public GameObject enemyBulletPrefab;
+    private GameController GC;
+
+    private void Start()
     {
-        FireEnemyBullet();
+        GC = FindObjectOfType<GameController>();
+        InvokeRepeating(nameof(FireEnemyBullet), 1.0f, 1.0f);
     }
 
     void FireEnemyBullet()
@@ -20,13 +23,13 @@ public class EnemyShoot : MonoBehaviour
             {
                 continue;
             }
-            
-            if (Random.Range(0, 10000) < 1)
+
+            if (Random.value < 1.0f / GC.invaders.transform.childCount)
             {
-                enemyBulletClone = Instantiate(enemyBulletPrefab, new Vector3(invader.transform.position.x, invader.transform.position.y - 0.4f, 1), invader.transform.rotation) as GameObject;
+                Instantiate(enemyBulletPrefab, invader.position, Quaternion.identity);
+                break;
             }
         }
-            
     }
 
     

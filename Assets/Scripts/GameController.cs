@@ -20,11 +20,11 @@ public class GameController : MonoBehaviour
         //Instantiate(player, new Vector3(0, -13, 0), transform.rotation); // Instantiate player in position
         gameover = GetComponent<Player>(); 
         gameOverText.enabled = false;
+        invaders = GameObject.Find("Invaders");
     }
 
     private void FixedUpdate()
     {
-        invaders = GameObject.Find("Invaders");
         Debug.Log(invaders.name + " has " + invaders.transform.childCount + " children");
 
         for(var i = 0; i <= invaders.transform.childCount; i++) // COUNT HOW MANY ENEMIES ALIVES
@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
             }
         }
 
-        if (!Player.FindObjectOfType<Player>()) // Verify if player is active on scene
+        if (!FindObjectOfType<Player>()) // Verify if player is active on scene
         {
 
             gameOverText.enabled = true;
