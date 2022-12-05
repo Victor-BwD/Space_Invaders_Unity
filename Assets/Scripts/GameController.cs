@@ -8,8 +8,6 @@ public class GameController : MonoBehaviour
 {
     public GameObject invaders;
 
-    public GameObject player;
-
     private Player gameover;
 
     public Text gameOverText;
