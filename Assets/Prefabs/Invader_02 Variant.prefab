@@ -38,7 +38,7 @@ PrefabInstance:
     - target: {fileID: 1472001016896780604, guid: 47af070e2ab06474da6fbbc34417533c,
         type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Middle Alien
       objectReference: {fileID: 0}
     - target: {fileID: 2233598378141361054, guid: 47af070e2ab06474da6fbbc34417533c,
         type: 3}

@@ -8,6 +8,9 @@ TagManager:
   - Player Bullet
   - Enemy
   - Shield
+  - Backline Alien
+  - Middle Alien
+  - Frontline Alien
   layers:
   - Default
   - TransparentFX
