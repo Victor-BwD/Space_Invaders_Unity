@@ -11,6 +11,7 @@ TagManager:
   - Backline Alien
   - Middle Alien
   - Frontline Alien
+  - MisteryShip
   layers:
   - Default
   - TransparentFX

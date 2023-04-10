@@ -33,13 +33,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            this.transform.position += Vector3.left * speed * Time.deltaTime;
-        }else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            this.transform.position += Vector3.right * speed * Time.deltaTime;
-        }
+        MovePlayer();
 
         if (Input.GetKey(KeyCode.Space) && Time.time > nextFire)
         {
@@ -52,6 +46,22 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    
+    private void MovePlayer()
+    {
+        Vector3 direction = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            direction = Vector3.left;
+        }
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            direction = Vector3.right;
+        }
+
+        transform.position += direction * speed * Time.deltaTime;
     }
 
     public void RemoveHealth(int amount)
